@@ -8,7 +8,7 @@ Comentário 2: geralmente, as imagens parte_001.png das pastas é um lixinho
 import os
 
 def renomear_questoes_simples():
-    pasta = "questoes-paginas-2a14"
+    pasta = "questoes-paginas"
     
     if not os.path.exists(pasta):
         print(f"Pasta {pasta} não encontrada!")
@@ -18,9 +18,9 @@ def renomear_questoes_simples():
     mapeamento = {}
         
     # Questões normais: parte_002 a parte_032 -> questao-46 a questao-76
-    for i in range(6, 34+1):
+    for i in range(2, 12+1):
         antigo = f"parte_{i:03d}.png"
-        novo = f"questao-{i+1}.png"
+        novo = f"questao-{i+44}.png"
         mapeamento[antigo] = novo
     
     # Aplicar o renomeamento
