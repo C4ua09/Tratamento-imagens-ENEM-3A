@@ -10,8 +10,8 @@ from PIL import Image
 import os
 import re
 
-pasta_imagens = "pagina-15"
-pasta_saida = "15"
+pasta_imagens = "paginas-2a14"
+pasta_saida = "2a14"
 os.makedirs(pasta_saida, exist_ok=True)
 
 # Função para extrair o número da página e ordenar corretamente
